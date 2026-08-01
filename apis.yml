@@ -1,8 +1,27 @@
 aid: project-europe
 name: Project Europe
-description: Project Europe is a company surfaced as a portfolio company of point-nine and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Project Europe (styled "Project Europe - LFG") is an initiative supporting
+  the next generation of European founders. It runs an open application process for
+  early-stage founders, backs and showcases a portfolio of companies started by that
+  community, publishes an investor prospectus, and convenes a network of experienced
+  European operators and investors. Surfaced in the API Evangelist network as a portfolio
+  company of point-nine, Project Europe operates as a founder-community and early
+  backing program rather than a public API or developer platform - its public web
+  presence is a marketing site (apply, portfolio, legal pages) with no documented
+  public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/project-europe/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.projecteurope.co/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Venture Capital
+- Startups
+- Founders
+- Europe
+- Community
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/project-europe-domain-security.yml
 - type: Website
   url: https://www.projecteurope.co
+- type: SignUp
+  url: https://www.projecteurope.co/apply
+- type: PrivacyPolicy
+  url: https://www.projecteurope.co/privacy
+- type: TermsOfService
+  url: https://www.projecteurope.co/terms
+- type: Twitter
+  url: https://x.com/ProjectEurope_
+- type: LinkedIn
+  url: https://www.linkedin.com/company/project-europe-lfg
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
